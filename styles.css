@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.server-icon img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -75px;
+    border: 5px solid #FF0000;
+    /* لون الحدود الأحمر */
+}
+
+header {
+    position: relative;
+    padding: 20px;
+}
+
+.server-name {
+    color: #FFD700;
+    /* لون النص الذهبي */
+    font-size: 24px;
+    /* حجم الخط */
+    margin-top: 0;
+}
+
+.join-now {
+    margin: 20px;
+}
+
+.join-button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.join-button:hover {
+    background-color: darkred;
+}
+
+.admin-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #EEFF00;
+    /* لون زر الإدارة */
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-button:hover {
+    background-color: #a7a404;
+}
+
+.support-form {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 400px;
+    color: white;
+    /* لون النص داخل النموذج */
+}
+
+.support-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.support-form input,
+.support-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    /* لون النص داخل حقل الإدخال */
+}
+
+.support-form button {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support-form button:hover {
+    background-color: #009ACD;
+}
+
+.notification {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+}
+
+.notification.hidden {
+    display: none;
+}
+
+.admins {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 300px;
+    font-size: 18px;
+    color: white;
+    /* لون النص داخل الإدارة */
+}
+
+.hidden {
+    display: none;
+}
+
+.admin-name {
+    color: #FFD700;
+    /* لون اسم الإدارة */
+    font-weight: bold;
+}
+
+.admin-rank {
+    color: #FF0000;
+    /* لون رتبة الإدارة */
+}
+
+#cooldown {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}

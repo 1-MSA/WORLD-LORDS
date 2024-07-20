@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Lords - Discord Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <img src="banner.jpg" alt="World Lords Banner">
+        </div>
+        <div class="server-icon">
+            <img src="server-icon.png" alt="World Lords Server Icon">
+        </div>
+        <h1 class="server-name">Welcome to 🌍 WORLD LORDS 🌎 Server</h1>
+    </header>
+    <main>
+        <div class="join-now">
+            <a href="https://discord.com/invite/DHq2vq9fYH" class="join-button">Join Now</a>
+        </div>
+        <div id="support-form" class="support-form">
+            <h2>Support Form</h2>
+            <form id="supportForm">
+                <label for="username">Your User Name</label>
+                <input type="text" id="username" name="username" required>
+                <label for="contact">How We Contact You</label>
+                <input type="text" id="contact" name="contact" required>
+                <label for="problem">Your problem in detail</label>
+                <textarea id="problem" name="problem" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="cooldown" class="hidden"></div>
+            <div id="countdown-timer" class="hidden"></div>
+            <!-- Join World Lords Now-->
+        </div>
+        <button class="admin-button" onclick="toggleAdmins()">Show Admins</button>
+        <div id="admins" class="admins hidden">
+            <h2>Admins</h2>
+            <ul>
+                <li><span class="admin-name">6_sa</span> - <span class="admin-rank">Owner</span></li>
+                <li><span class="admin-name">a_ym</span> - <span class="admin-rank">Owner</span></li>
+                <li><span class="admin-name">medo3367</span> - <span class="admin-rank">Co Owner</span></li>
+                <li><span class="admin-name">_mjbrene_</span> - <span class="admin-rank">General Deputies</span></li>
+                <li><span class="admin-name">8ixb</span> - <span class="admin-rank">General Deputies</span></li>
+                <li><span class="admin-name">hero_ksa1234</span> - <span class="admin-rank">Right Hand</span></li>
+            </ul>
+        </div>
+        <div id="notification" class="notification hidden"></div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
